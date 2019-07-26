@@ -1,12 +1,10 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Data Science"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /datasceince/
   - title: "Machine Learning"
-    url: /year-archive/
+    url: /machinelearning/
   - title: "Photography"
-    url: /collection-archive/
+    url: /photos/
   - title: "About"
     url: /about/
