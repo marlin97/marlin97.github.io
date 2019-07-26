@@ -114,7 +114,7 @@ author:
   email            :
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+     # icon: "fas fa-fw fa-envelope-square"
        url: "rossglasmann0@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
