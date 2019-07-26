@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Ross Glasmann"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio.jpg"
   bio              : "Data Scientist in development."
   location         : "West Hartford, CT"
   email            :  #"rossglasmann0@gmail.com"
