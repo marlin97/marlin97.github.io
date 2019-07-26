@@ -111,9 +111,9 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Future data scientist in development"
   location         : "West Hartford, CT"
-  email            :
+  email            : "rossglasmann0@gmail.com"
   links:
-      label: "Email"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
        url: "rossglasmann0@gmail.com"
     - label: "Website"
