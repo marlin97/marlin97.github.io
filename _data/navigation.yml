@@ -2,11 +2,11 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
+  - title: "Data Science"
     url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Sample Posts"
+  - title: "Machine Laerning"
     url: /year-archive/
-  - title: "Sample Collections"
+  - title: "Photography"
     url: /collection-archive/
-  - title: "Sitemap"
+  - title: "About"
     url: /sitemap/
