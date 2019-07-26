@@ -112,10 +112,10 @@ author:
   bio              : "Future data scientist in development"
   location         : "West Hartford, CT"
   email            :
-  links:
+  links
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:rossglasmann0@gmail.com"
+       url: "rossglasmann0@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
        url: "https://marlin97.github.io"
