@@ -1,5 +1,5 @@
 ---
 title: "Machine Learning Projects"
-permalink: "/machinelarning/"
+permalink: "/machinelearning/"
 ---
 Machine learning projects go here
