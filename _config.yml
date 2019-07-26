@@ -133,7 +133,7 @@ author:
   #     # url: "https://instagram.com/"
     - label: "Linkedin"
       icon: "assets/icons/linkedin-logo.svg"
-       url: "www.linkedin.com/in/ross-glasmann"
+      url: "www.linkedin.com/in/ross-glasmann"
 
 # Site Footer
 footer:
