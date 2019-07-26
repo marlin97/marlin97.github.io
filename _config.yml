@@ -112,7 +112,7 @@ author:
   bio              : "Future data scientist in development"
   location         : "West Hartford, CT"
   email            :
-  links
+  links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
        url: "rossglasmann0@gmail.com"
