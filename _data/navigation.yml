@@ -1,9 +1,7 @@
 # main links
 main:
-  - title: "Data Science"
-    url: /datascience/
-  - title: "Machine Learning"
-    url: /machinelearning/
+  - title: "Home"
+    url: /
   - title: "Photography"
     url: /photos/
   - title: "About"
