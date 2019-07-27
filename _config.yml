@@ -283,10 +283,6 @@ compress_html:
   ignore:
     envs: development
 
-collections:
-  category:
-    output: true
-
 
 # Defaults
 defaults:
@@ -310,6 +306,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-
+      
 
 
