@@ -1,7 +1,4 @@
 ---
-layout: "archive"
-title: "My Photos"
-permalink: "/photos/"
 gallery1:
   - url: /assets/photography/gallery1/image1
     image_path: /assets/photography/gallery1/image1
@@ -19,6 +16,9 @@ gallery1:
     image_path: /assets/photography/gallery1/image4
     alt: ""
     title: "Summer the Cat"
+layout: "archive"
+title: "My Photos"
+permalink: "/photos/"
 ---
 
 {% include gallery id="gallery1" caption="" %}
