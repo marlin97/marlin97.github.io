@@ -16,7 +16,6 @@ gallery1:
     image_path: /assets/photography/gallery1/image4
     alt: ""
     title: "Summer the Cat"
-layout: "archive"
 title: "My Photos"
 permalink: "/photos/"
 ---
