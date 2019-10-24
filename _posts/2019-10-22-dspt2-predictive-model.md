@@ -14,7 +14,9 @@ Predicting when someone might miss a payment is is a valuable asset for many com
 ## The Data
 
 This dataset is originally from the UCI Machine Learning Repository. The data was collected in Taiwan, using six different data mining methods. The dataset consists of both categorical and numeric features and conveniently does not have any missing values.  The features are also already ordinally encoded. This data requires minimal cleaning and changes to be ready for a model. 
---Image
+
+{% include figure image_path="/assets/images/dspt2-project1/df_describe.png" caption="Pandas describe funtion" %}
+
 
 Some of the categorical variables had Zeros where there should have been missing values, so those were fixed. Some of the values in the EDUCATION column were also consolidated, because they all stood for the same thing, yet were labeled differently. That is the extent of data cleaning and feature engineering that was needed for this particular dataset. From this point, we are ready to prepare the model to make predictions.
 
