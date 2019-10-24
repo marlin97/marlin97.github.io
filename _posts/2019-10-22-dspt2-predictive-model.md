@@ -17,9 +17,12 @@ This dataset is originally from the UCI Machine Learning Repository. The data wa
 
 ![Pandas describe funtion](/assets/images/dspt2-project1/df_describe.PNG)
 
-
-Some of the categorical variables had Zeros where there should have been missing values, so those were fixed. Some of the values in the EDUCATION column were also consolidated, because they all stood for the same thing, yet were labeled differently. That is the extent of data cleaning and feature engineering that was needed for this particular dataset. From this point, we are ready to prepare the model to make predictions.
-
+Some of the categorical variables had Zeros where there should have been missing values, so those were fixed.
+![Categorical Pair Plot](/assets/images/dspt2-project1/pair_plot.PNG)
+![](/assets/images/dspt2-project1/plot_sex_hue_defaukt.PNG)
+Some of the values in the EDUCATION column were also consolidated, because they all stood for the same thing, yet were labeled differently. That is the extent of data cleaning and feature engineering that was needed for this particular dataset. From this point, we are ready to prepare the model to make predictions.
+![Fixing Zeros](/assets/images/dspt2-project1/data_cleaning_zeros.PNG)
+![Fixing EDUCATION](/assets/images/dspt2-project1/data_cleaning_education_feat_engineering.PNG)
 ## The Model
 
 The first thing to do is to find the majority class baseline. This is the probability that you will choose either of the classes being predicted, by randomly guessing. For this dataset, the majority class baseline for NOT defaulting on payment is 77.88 percent, and 22.12 percent for defaulting. 
@@ -33,8 +36,10 @@ The first model I chose was the Random Forest Classifier, which is a decision tr
 {% include figure image_path="/assets/images/dspt2-project1/first_model_feature_importance.PNG" caption="Baseline Model Feature Importances" %}
 
 The next model tried is an xgboost model called XGBoostClassifier. This is another decision tree based model, but it is usually able to improve accuracy over a normal decision tree or random forest. With these models, hyperparameters need to be tuned to get the best performance. A hyperparameter is a setting for the model, that can be changed, and changes the way the model performs. For this, I used sklearns GridSearchCV. After finding the best parameters, the final model was ready to be trained. 
---image
+{% include figure image_path="/assets/images/dspt2-project1/grid_search.PNG" caption="Grid Search" %} 
 The final model got an accuracy score of 80.75 percent, which is an improvement over the first model and the majority class baseline. The ROC AUC score was very similar to that of the first model, scoring 0.6445 with the test data. 
+{% include figure image_path="/assets/images/dspt2-project1/grid_search_roc_auc.PNG" caption="Final Model ROC curve" %} 
+{% include figure image_path="/assets/images/dspt2-project1/grid_feature_imporances.PNG" caption="Final Model Feature Importances" %} 
 
 ## Conclusion
 
