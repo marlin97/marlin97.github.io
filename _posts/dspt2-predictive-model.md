@@ -1,3 +1,10 @@
+---
+title: "Predicting Credit Card Default"
+date: 2019-10-22
+#tags: [data science, machine learning]
+excerpt: "Machine Learning Model to Predict Credit Defaults"
+---
+
 # Predicting Credit Card Default
 ### By Ross Glasmann
 ### October 22, 2019
